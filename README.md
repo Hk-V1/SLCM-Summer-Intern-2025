@@ -1,4 +1,4 @@
-# Internship at SLCM (Sohan Lal Commodity Management Ltd.)
+# Internship - Summer 2025
 
 This repository documents all the work, code, reports, and learnings from my internship at **Sohan Lal Commodity Management Limited (SLCM)** — a leading post-harvest agri-logistics company.
 
