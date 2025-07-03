@@ -14,7 +14,7 @@ This repository documents all the work, code, reports, and learnings from my int
 
 SLCM holds certifications such as ISO 9001:2015, ISO 22000:2018, ISO 33000, ISO 14001:2015, and ISO 45001:2018, ensuring its global standard in warehousing and commodity management.
 
-For more, visit [https://www.slcms.com]([https://www.sohanlal.in/])
+For more, visit [SLCM Website](https://www.sohanlal.in/)
 
 ---
 
