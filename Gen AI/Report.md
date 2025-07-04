@@ -12,7 +12,7 @@ A key goal of this work is to demonstrate how **prompt design** significantly im
 
 ### 2.1 Dataset
 
-The dataset includes **9 images**:
+The dataset includes **45 images**:
 - 3 grain types: `wheat`, `rice`, `maize`
 - Each type has 3 variations:
   - `correct`: high-quality, well-formed image
