@@ -103,7 +103,7 @@ These insights reinforce the need for careful prompt formulation in deploying AI
 | File Name      | Purpose                                                                 |
 |----------------|-------------------------------------------------------------------------|
 | `Images.py`    | Optional script for image-related operations such as preprocessing or display. Can be used to manage reusable image utilities. |
-| `README.md`    | High-level overview of the project including aim, dataset, methods, and results summary. Suitable for repository documentation. |
+| `Models.md`    | This document compares Gemini 1.5 Pro and Gemini 2.5 Pro models and explores their applications in multimodal AI tasks, particularly grain type classification. |
 | `Report.md`    | Detailed technical report including introduction, methodology, prompt design comparison, results, and conclusion. |
 | `main.ipynb`   | Main execution notebook. Runs model evaluations, applies prompts, parses outputs, and generates accuracy plots and tables. |
 
