@@ -75,12 +75,16 @@ Two prompts were used:
 
 ## 4. Conclusion
 
-This project highlights the critical role of **prompt engineering** in **visual quality assurance tasks** using GenAI:
+This project demonstrates the powerful synergy between **prompt engineering** and **multimodal AI models** for real-world agricultural quality assurance.
 
-- A **task-aligned and structured prompt (Prompt B)** leads to improved interpretability and scoring consistency.
-- **Gemini 2.5 Pro** outperforms Gemini 1.5 Flash across all metrics.
-- Complex prompts may confuse older models; clarity and simplicity improve results.
-- GenAI can replace manual rice image inspection, provided prompts are well-designed.
+Key takeaways include:
+
+- **Prompt clarity and alignment with task goals** directly impact model output. The "New Prompt" offered better structure but worked more reliably with the **Gemini 1.5 Flash** model than with Gemini 2.5 Pro.
+- Surprisingly, **New Prompt + New Model (Gemini 2.5 Pro)** produced the lowest approval rate (0%), suggesting that newer models may require different tuning or more contextual grounding for QA tasks.
+- **Old Prompt + Old Model** and **New Prompt + Old Model** had the best success rates (66.7%), showing that moderate prompts work best with older, more deterministic models.
+- No errors occurred in the full pipeline, confirming that the prompt-model evaluation framework is **robust and scalable**.
+
+Ultimately, the project emphasizes that **success in GenAI-powered image tasks depends not only on model capability but on thoughtful prompt design**. This approach can be generalized for automating QA in grains, seeds, or any standardized agricultural product dataset.
 
 ---
 
