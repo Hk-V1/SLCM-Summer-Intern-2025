@@ -93,5 +93,4 @@ Ultimately, the project emphasizes that **success in GenAI-powered image tasks d
 | File Name                                    | Purpose                                                                 |
 |---------------------------------------------|-------------------------------------------------------------------------|
 | `Rice_GenAi_Old_to_New_V1.ipynb`            | Main execution notebook with prompt evaluation, model calls, and plots |
-| `comprehensive_rice_analysis_with_images.xlsx` | Dataset with evaluation results and embedded images                    |
 | `report.md`              | Structured summary of task, methodology, and results                   |
