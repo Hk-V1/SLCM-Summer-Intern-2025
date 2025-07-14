@@ -50,30 +50,27 @@ Two prompts were used:
 
 ## 3. Results
 
-### 3.1 Accuracy Summary
+### 3.1 Combination Performance Summary
 
-| Prompt    | Model       | JSON Validity Rate | Verdict Accuracy* |
-|-----------|-------------|---------------------|-------------------|
-| Prompt A  | Gemini 1.5  | 65%                 | Medium            |
-| Prompt A  | Gemini 2.5  | 85%                 | Good              |
-| Prompt B  | Gemini 1.5  | 80%                 | Good              |
-| Prompt B  | Gemini 2.5  | **100%**            | **Excellent**     |
-
-\*Verdict Accuracy: Rate at which model gave a correct "yes"/"no" decision based on image ground truth.
+| Combination              | Approved | Rejected | Errors | Success Rate |
+|--------------------------|----------|----------|--------|---------------|
+| New_Prompt_Old_Version   | 6        | 3        | 0      | 66.7%         |
+| Old_Prompt_New_Version   | 1        | 8        | 0      | 11.1%         |
+| New_Prompt_New_Version   | 0        | 9        | 0      | 0.0%          |
+| Old_Prompt_Old_Version   | 6        | 3        | 0      | 66.7%         |
 
 ### 3.2 Observations
 
-- **Gemini 2.5 + Prompt B** produced the most valid, high-quality JSON outputs and verdicts.
-- **Prompt A** led to inconsistent responses, especially with Gemini 1.5.
-- **Prompt B** improved structure comprehension and JSON parsing success.
-- Gemini 1.5 Flash struggled with verbose prompts and misinterpreted multiple sections.
+- **New Prompt + Old Model** and **Old Prompt + Old Model** had the highest success rates (66.7%), showing strong alignment when prompt complexity is balanced with model capability.
+- **New Prompt + New Model** unexpectedly resulted in a 0% approval rate, suggesting that prompt structure or model expectations might be misaligned.
+- **Old Prompt + New Model** yielded the lowest non-zero performance (11.1%), likely due to verbosity confusing newer models optimized for concise instruction sets.
+- No combinations resulted in API or logic errors (`Errors = 0`), indicating robust pipeline execution.
 
-### 3.3 Visualization Output
+### 3.3 Visual Output (From Notebook)
 
-- **Bar chart:** Average `overall_score` per prompt-model combination
-- **Stacked bar chart:** Verdict summary (`yes`/`no` per combination)
-- **Console summary:** Success rates printed for each prompt-model combo
-
+- **Bar chart** comparing average `overall_score` across combinations
+- **Stacked bar chart** of verdicts (approved vs rejected)
+- **Console-based summary** of success rates per combination
 ---
 
 ## 4. Conclusion
