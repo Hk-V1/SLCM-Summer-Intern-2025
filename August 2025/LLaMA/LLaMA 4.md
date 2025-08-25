@@ -1,4 +1,4 @@
-# 🦙 LLaMA 4 – Overview, Models, and Applications
+# LLaMA 4 – Overview, Models, and Applications
 
 ## 1. Introduction
 
