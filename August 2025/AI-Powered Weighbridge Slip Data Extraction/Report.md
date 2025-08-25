@@ -1,4 +1,4 @@
-# AI-Powered Weighbridge Slip Data Extraction – Strategy Summary
+# AI-Powered Weighbridge Slip Data Extraction
 
 ## Goal
 Automate extraction of key fields (vehicle number, gross/tare/net weight, date, etc.) from weighbridge slips using AI-based approaches.
